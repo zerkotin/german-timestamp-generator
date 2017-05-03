@@ -7,8 +7,11 @@ Whats the problem you ask?
 Because we forgot to use UTC at the beginning of the project and now we have timezone issues when we save data to the database.  
 In addition, we are not allowed to change the database, so this should be an ALL UI solution.
 
-## How to use:
-Include the JS file in your sources, and use as follows...  
+## Setup
+Simply copy the [.js file](german-timezone-converter.js) to your application and use it as described in the API section.
+
+## API
+  
 
 Lets say you already have the wanted time already from a date picker, but its in your local timezone.
 
